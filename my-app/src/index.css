@@ -1,0 +1,17 @@
+body {
+  background-image: url("C:\Users\Administrator\Desktop\Promineo_Tech\Week-13-Intro_to_React_Webpack_Components_and_JSX\my-app\src\Sugarloaf.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

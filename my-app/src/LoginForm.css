@@ -1,0 +1,73 @@
+body {
+    background-image: url('C:\Users\Administrator\Desktop\Promineo_Tech\Week-13-Intro_to_React_Webpack_Components_and_JSX\my-app\src\Sugarloaf.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    background-color: #3c3c3c;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    width: 100px;
+    text-align: right;
+    margin-right: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .submit-btn {
+    background-color: #53546c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2f2f2f;
+  }
+  .login-form label, .login-form input {
+    color: white;
+  }
+  .login-form h3 {
+    color: white;
+    font-size: 32px;
+  }
+  .login-form:hover {
+    box-shadow: 5px 10px 40px rgba(0, 0, 0, 0.4);
+  }
+  input[type="text"], input[type="password"] {
+    color: black;
+  }
+  
